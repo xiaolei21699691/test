@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'What you see if from github.com'
+            }
+        }
+    }
+}
